@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import ImageBanner from "../../public/brandon-mbemba-high-resolution-logo-transparent.png";
+import ImageBanner from "../../public/MIVA_V4_Plan-de-travail-1-copie-8.png";
 import { FaBars } from 'react-icons/fa'; // Icône pour le menu hamburger
 import Modal from "./Modal";
 
@@ -23,13 +23,13 @@ const Header = () => {
             <nav className="desktop-nav">
                 <ul>
                     <NavLink to="/" className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>Mon travail</li>
+                        <li>H O M E</li>
                     </NavLink>
                     <NavLink to="/about" className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>A propos de moi</li>
+                        <li>M I V A</li>
                     </NavLink>
                     <NavLink to="/Contact" className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>Contact</li>
+                        <li>C O N T A C T</li>
                     </NavLink>
                 </ul>
             </nav>
@@ -37,13 +37,13 @@ const Header = () => {
             <Modal isOpen={isModalOpen} toggleModal={toggleModal}>
                 <ul>
                     <NavLink to="/" onClick={toggleModal} className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>Mon travail</li>
+                        <li>H O M E</li>
                     </NavLink>
                     <NavLink to="/about" onClick={toggleModal} className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>À propos de moi</li>
+                        <li>M I V A</li>
                     </NavLink>
                     <NavLink to="/contact" onClick={toggleModal} className={({isActive}) => (isActive ? "underline" : "")}>
-                        <li>Contact</li>
+                        <li>C O N T A C T</li>
                     </NavLink>
                 </ul>
             </Modal>

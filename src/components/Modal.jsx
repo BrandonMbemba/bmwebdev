@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { FaTimes } from "react-icons/fa"; // Icone de fermeture
-import ImageModal from "../../public/brandon-mbemba-high-resolution-logo-transparent.png";
 
 const Modal = ({ isOpen, toggleModal, children }) => {
     // Utilisation de useEffect pour ajouter/retirer la classe "no-scroll" au body
@@ -23,7 +22,6 @@ const Modal = ({ isOpen, toggleModal, children }) => {
         <div className="modal-overlay">    
             <div className="modal-content">
                 <div className="modal-header">
-                    <img src={ImageModal} alt="Logo de Brandon M'bemba" className="modal-logo" />
                     <FaTimes className="close-icon" onClick={toggleModal} />
                 </div>
                 {children}

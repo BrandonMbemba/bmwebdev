@@ -5,6 +5,7 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 5%;
+    font-family: "Libre Bodoni", serif;
     img {
         height: 60vh;
         width: 90vw;
@@ -16,7 +17,6 @@
     .locationAndInfo {
         display: flex;
         justify-content: space-between;
-        font-family: "Montserrat", sans-serif;
         width: 90vw;
         align-self: center;
         .location {
@@ -55,7 +55,6 @@
     .tagsAndRatings {
         display: flex;
         justify-content: space-between;
-        font-family: "Montserrat", sans-serif;
         align-items: baseline;
         .tags {
             display: flex;

@@ -1,0 +1,51 @@
+.image-carousel {
+    display: flex;
+    justify-content: center;
+    .fa-chevron-left {
+        position: absolute;
+        top: 55vh;
+        left: 15vw;
+        font-size: 80px;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .fa-chevron-right {
+        position: absolute;
+        top: 55vh;
+        right: 15vw;
+        font-size: 80px;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .pagination-text {
+        position: absolute;
+        bottom: 15vh;
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media (max-width :767.98px) {
+    .image-carousel {
+        img {
+            height: 40vh;
+            width: 90vw;
+            border-radius: 2%;
+        }
+        .fa-chevron-left {
+            top: 25vh;
+            left: 5vw;
+            font-size: 40px;
+        }
+        .fa-chevron-right {
+            top: 25vh;
+            right: 5vw;
+            font-size: 40px;
+        }
+    }
+}   
