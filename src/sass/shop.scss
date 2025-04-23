@@ -31,6 +31,32 @@
   
       .shop-info {
         text-align: center;
+        
+        .add-button-container {
+          position: relative;
+        
+          .plus-one {
+            position: absolute;
+            top: -20px;
+            right: 0;
+            font-size: 16px;
+            color: green;
+            font-weight: bold;
+            animation: floatUp 0.8s ease-out forwards;
+            pointer-events: none;
+          }
+        }
+        
+        @keyframes floatUp {
+          0% {
+            opacity: 1;
+            transform: translateY(0px);
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(-20px);
+          }
+        }
 
         .color {
           font-style: italic;

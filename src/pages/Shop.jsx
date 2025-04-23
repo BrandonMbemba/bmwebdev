@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { CartContext } from '../components/CartContext';
 import Tanga from '../data/bikini_bottoms_tanga_miwa.json';
@@ -51,7 +51,14 @@ const Shop = () => {
             <h1 className="shop-title">{categories[id]?.title || "Catégorie"}</h1>
 
             {produits.map((produit, index) => {
+                const [showPlusOne, setShowPlusOne] = useState(false);
                 const hasImages = produit.images && produit.images.length > 0;
+
+                const handleAddToCart = () => {
+                    addToCart(produit);
+                    setShowPlusOne(true);
+                    setTimeout(() => setShowPlusOne(false), 800); // durée affichage
+                };
 
                 return (
                     <div key={`${id}-${index}`} className="shop-item">
@@ -66,7 +73,10 @@ const Shop = () => {
                             <p className="color"><strong>Couleur :</strong> {produit.color || 'Non renseignée'}</p>
                             <p>{produit.description || 'Pas de description.'}</p>
                             <p><strong>Prix : </strong>{produit.price ? `${produit.price} €` : 'Non renseigné'}</p>
-                            <button onClick={() => addToCart(produit)}>Ajouter au panier</button>
+                            <div className="add-button-container">
+                                <button onClick={handleAddToCart}>Ajouter au panier</button>
+                                {showPlusOne && <span className="plus-one">+1</span>}
+                            </div>
                         </div>
                     </div>
                 );
