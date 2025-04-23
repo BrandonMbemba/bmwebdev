@@ -1,0 +1,18 @@
+[{
+  "id": "swimsuits",
+  "title": "GAÏA",
+  "cover": "https://i.postimg.cc/t4tD95kw/IMG-5235.webp",
+  "products": [
+    {
+      "model": "GAÏA",
+      "color": "Bicolore Noir et Blanc",
+      "price": 55.90,
+      "description": "Maillot de bain une pièce décolleté et ouvert au dos. Fermeture réglable à nœud.",
+      "images": [
+        "https://i.postimg.cc/t4tD95kw/IMG-5235.webp",
+        "https://i.postimg.cc/T2VK743z/IMG-5338.webp",
+        "https://i.postimg.cc/sgqfDY2P/IMG-5247.webp"
+      ]
+    }
+  ]
+}]

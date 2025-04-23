@@ -1,38 +1,23 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaFileContract } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook } from 'react-icons/fa';
+import Logo from '../../public/MIVA_V4-[Reěcupeěreě]_Plan-de-travail-1-copie-8.png';
 
 const Footer = () => {
     return (
         <div className='footer'>
-                <a 
-                    href='https://www.linkedin.com/in/brandon-m-40394925a/' 
-                    target='_blank' 
-                    rel='noopener noreferrer'
-                    aria-label="LinkedIn - Brandon M'Bemba"
-                >
-                    <FaLinkedin/>
-                </a>
-                <a
-                    href='https://acrobat.adobe.com/id/urn:aaid:sc:EU:143094eb-d132-431a-90e3-9bd578b1ded8'
-                    target='_blank' 
-                    rel='noopener noreferrer'
-                    aria-label="CV - Brandon M'Bemba"
-                >
-                    <FaFileContract/>
-                </a>
-                <a
-                    href='https://github.com/BrandonMbemba'
-                    target='_blank' 
-                    rel='noopener noreferrer'
-                    aria-label="GitHub - Brandon M'Bemba"
-                >
-                    <FaGithub/>
-                </a>
-                <p>© 2024 Brandon M'bemba. Tous droits réservés</p>
+            <div className="footer-content">
+                <img className='logo' src={Logo} alt="Logo MIVA Footer" />
+                <div className="footer-links">
+                    <a href='https://www.instagram.com/miva.swim/' target='_blank' rel='noopener noreferrer' aria-label="Instagram"><FaInstagram /></a>
+                    <a href='https://www.tiktok.com/@mivaswim' target='_blank' rel='noopener noreferrer' aria-label="TikTok"><FaTiktok /></a>
+                    <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer' aria-label="Facebook"><FaFacebook /></a>
+                </div>
+                <p>© 2025 MIVA. Tous droits réservés</p>
+            </div>
         </div>
     );
 };
 
+
 export default Footer;
+

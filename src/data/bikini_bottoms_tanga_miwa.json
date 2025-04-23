@@ -1,0 +1,89 @@
+[
+    {
+        "id": "bikini-bottoms-tanga",
+        "title": "ORA",
+        "cover": "https://i.postimg.cc/FHPJCZMv/IMG-4717.webp",
+        "products": [
+            {
+                "model": "ORA",
+                "color": "Marron Espresso",
+                "price": 15.9,
+                "description": "Bas échancré tanga satiné",
+                "images": [
+                    "https://i.postimg.cc/jjQrcgwq/IMG-3442.jpg",
+                    "https://i.postimg.cc/MZcz2Yg5/IMG-3460.webp"
+                ]
+            },
+            {
+                "model": "ORA",
+                "color": "Bordeaux Red Wine",
+                "price": 15.9,
+                "description": "Bas échancré tanga satiné",
+                "images": [
+                    "https://i.postimg.cc/Z56rfpTK/IMG-4705.webp",
+                    "https://i.postimg.cc/FHPJCZMv/IMG-4717.webp"
+                ]
+            },
+            {
+                "model": "ORA",
+                "color": "Vert Olive",
+                "price": 15.9,
+                "description": "Bas échancré tanga satiné",
+                "images": [
+                    "https://i.postimg.cc/YCtszrHV/IMG-5905.webp",
+                    "https://i.postimg.cc/pXKdnZWC/IMG-5922.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Marron Espresso",
+                "price": 15.9,
+                "description": "Bas échancré tanga bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/253RnQR3/IMG-5758.webp",
+                    "https://i.postimg.cc/BZC39QgS/IMG-5762.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Bordeaux Red Wine",
+                "price": 15.9,
+                "description": "Bas échancré tanga bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/0QwpMBVn/IMG-6154.webp",
+                    "https://i.postimg.cc/j5MrfMCW/IMG-6167.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Vert Olive",
+                "price": 15.9,
+                "description": "Bas échancré tanga bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/qgV0BzzQ/IMG-5380.webp",
+                    "https://i.postimg.cc/y698tHJn/IMG-5385.webp"
+                ]
+            },
+            {
+                "model": "SOPHIA",
+                "color": "Méditerranée Bleu",
+                "price": 15.9,
+                "description": "Bas échancré tanga",
+                "images": [
+                    "https://i.postimg.cc/0yCfCFdy/IMG-4317.webp",
+                    "https://i.postimg.cc/NMX2drqk/IMG-4308.webp"
+                ]
+            },
+            {
+                "model": "FLORA",
+                "color": "Fleuri Vert",
+                "price": 15.9,
+                "description": "Bas échancré tanga",
+                "images": [
+                    "https://i.postimg.cc/wvzRbjqK/IMG-3922.webp",
+                    "https://i.postimg.cc/9MyKCJHR/IMG-3865.webp"
+                ]
+            }
+        ]
+    }
+]

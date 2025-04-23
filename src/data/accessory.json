@@ -1,0 +1,17 @@
+[{
+  "id": "accessories-sarong",
+  "title": "SARONG",
+  "cover": "https://i.postimg.cc/CKYVPmrK/IMG-6655.webp",
+  "products": [
+    {
+      "model": "POËMA",
+      "color": "Ivoire",
+      "price": 10.90,
+      "description": "Paréo court à nœud avec ondulation sur les bords. Taille unique.",
+      "images": [
+        "https://i.postimg.cc/CKYVPmrK/IMG-6655.webp",
+        "https://i.postimg.cc/0QkPQc74/IMG-6625.webp"
+      ]
+    }
+  ]
+}]

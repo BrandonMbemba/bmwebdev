@@ -2,10 +2,14 @@
     text-decoration: none;
     border-radius: 2%;
     padding: 3px;
-    width: 37vw;
+    width: 30vw;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.02);
+      }
         img {
             height: 70vh;
-            width: 37vw;
+            width: 30vw;
             border-radius: 2%;
             object-fit: cover;
             object-position: center;

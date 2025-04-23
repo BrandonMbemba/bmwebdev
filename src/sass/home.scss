@@ -1,234 +1,204 @@
 .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Libre Bodoni", serif;
+  width: 100%;
+  overflow-x: hidden;
+
+  .banner {
+    width: 100%;
+    position: relative;
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      height: 12vh;
+      max-width: 300px;
+      object-fit: contain;
+      padding: 1rem 0;
+    }
+
+    img {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+    }
+
+    h1, p {
+      font-size: 48px;
+      font-weight: 300;
+      color: black;
+      text-align: center;
+      margin: 1rem 0;
+    }
+  }
+
+  .work {
+    margin: 4rem 0 2rem;
+    text-align: center;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // ✅ 3 par ligne
+    gap: 2rem;
+    width: 95%;
+    margin: 2rem auto;
+    justify-items: center;
+  }
+
+  .categorie-preview {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1.5rem;
+    transition: 0.3s ease;
     display: flex;
-    margin-top: 5%;
-    flex-wrap: wrap;
-    justify-content: center;
     flex-direction: column;
-    .banner {
-        width: 100%;
-        .logo {
-            justify-content: center;
-            height: 18vh;
-            position: absolute;
-            display: flex;
-            justify-self: anchor-center;
-            width: 50vw;
-            bottom: 20vh;
-        }
-        img {
-            width: 100%;
-            height: 100vh;
-            object-fit: cover;
-        }
-        h1 {
-            font-family: "Libre Bodoni", serif;
-            font-size: 50px;
-            color: black;
-            font-weight: 100;
-            /* padding-left: 50px; */
-            display: flex;
-            justify-content: center;        }
-        p {
-            font-family: "Libre Bodoni", serif;
-        font-size: 50px;
-        color: black;
-        font-weight: 100;
-        /* padding-left: 50px; */
-        display: flex;
-        justify-content: center;
-        }
+    align-items: center;
+
+    &:hover {
+      background-color: #e8e8e8;
     }
-    .work {
-        margin-top: 94px;
-        display: flex;
-        flex-direction: column;
-        height: 34vh;
-        justify-content: center;
-        h2 {
-            font-family: "Libre Bodoni", serif;
-            font-size: 36px;
-            color: black;
-            font-weight: 500;
-            padding-left: 50px;
+
+    .categorie-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      button {
+        padding: 10px 16px;
+        font-size: 16px;
+        background: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-family: "Libre Bodoni", serif;
+        transition: 0.3s ease;
+
+        &:hover {
+          background-color: #333;
         }
-        p {
-            font-family: "Libre Bodoni", serif;
-            font-size: 20px;
-            color: black;
-            font-weight: 300;
-            padding-left: 50px;
-        }
+      }
     }
+
     .gallery {
-        border-radius: 25px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        gap: 60px;
-        padding-left: 50px;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        object-fit: cover;
+      }
     }
-    }
-.contactus {
-    display: flex;
-    padding-left: 50px;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 5%;
-    height: 67vh;
+  }
+
+  .contactus {
     background-color: black;
     color: white;
-    font-family: "Libre Bodoni", serif;
-        h2 {
-            width: 50%;
-            font-size: 41px;
-        }
-        p {
-            width: 58%;
-            font-size: 20px;
-        }
-        a {
-            color: black;
-            font-size: 20px;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            width: 20%;
-        }
-        button {
-            width: 100%;
-            padding: 20px;
-            background-color: white;
-            color: black;
-            border: none;
-            cursor: pointer;
-            font-size: 20px;
-            font-family: "Libre Bodoni", serif;
-            }
-            button:hover {
-                background-color: gray;
-            }
-            img {
-                height: 7vh;
-            }
-        }
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 100%;
 
-
-@media (max-width: 767.98px) {
-    .home {
-        margin-top: 20%;
-        .banner {
-            h1 {
-                font-size: 36px;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                font-weight: 600;
-                margin-left: 2%;
-            }
-            img {
-                margin-top: 20px;
-                height: 60vh;
-            }
-        }
-        .gallery {
-            max-width: 767.98px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 70px;  
-            padding-left: 0;
-        }
-        .work {
-            margin-bottom: 26%;
-            h2 {
-                font-size: 28px;
-                padding: 0;
-                display: flex;
-                font-weight: 600;
-                margin-left: 2%;
-            }
-            p {
-                font-size: 18px;
-                padding: 0;
-                margin-left: 2%;
-            }
-        }
-        .contact {
-            margin-top: 5%;
-            padding-left: 0;
-            justify-content: center;
-            padding-bottom: 10%;
-            gap: 10%;
-            flex-direction: column;
-                h2 {
-                    font-size: 20px;
-                    margin-left: 25%;
-                    max-width: 260px;
-                }
-                form {
-                    width: 260px;
-                }
-                img {
-                    height: 5vh;
-                    max-width: 260px;
-                    margin-top: 5%;
-                }
-        }
-        .contactus {
-            padding-top: 10%;
-            height: 75vh;
-            h2 {
-                font-size: 28px;
-                width: 75%;
-            }
-            p{
-                font-size: 17px;
-                width: 75%;
-            }
-            a {
-                width: 45%;
-                height: 14%;
-                margin-top: 1%;
-                margin-bottom: 13%;
-                button {
-                    font-size: 14px;
-                }
-            }
-        }
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
     }
+
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+
+      button {
+        padding: 12px 24px;
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        font-family: "Libre Bodoni", serif;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease;
+
+        &:hover {
+          background-color: #ccc;
+        }
+      }
+    }
+  }
 }
 
-@media (min-width: 767.98px) and (max-width: 1024px) {
-    .home {
-        .banner {
-            h1 {
-                font-size: 30px;
-            }
-            img {
-                height: 50vh;
-            }
-        }
-        .work {
-            h2 {
-                font-size: 30px;
-            }
-            p {
-                font-size: 18px;
-            }
-        }
-        .contact {
-            h2 {
-                font-size: 30px;
-            }
-            gap: 10%;
-            img {
-                height: 5vh;
-            }
-        }
-        .contactus {
-            h2 {
-                font-size: 30px;
-            }
-        }
+/* Responsive */
+@media (max-width: 767.98px) {
+  .home {
+    .banner {
+      img {
+        height: 60vh;
+      }
+
+      h1, p {
+        font-size: 28px;
+      }
     }
+
+    .work h2 {
+      font-size: 24px;
+    }
+
+    .preview {
+      grid-template-columns: 1fr;
+    }
+
+    .categorie-preview .categorie-header h2 {
+      font-size: 20px;
+    }
+
+    .contactus {
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      button {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .preview {
+    grid-template-columns: repeat(2, 1fr); // 2 sur tablette
+  }
 }

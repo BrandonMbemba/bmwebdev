@@ -36,22 +36,22 @@ function ContactForm() {
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <div>
-            <label htmlFor="first-name">Prénom:</label>
+            <label htmlFor="first-name">First Name:</label>
             <input type="text" id="first-name" name="first_name" required />
           </div>
           <div>
-            <label htmlFor="name">Nom:</label>
+            <label htmlFor="name">Last Name:</label>
             <input type="text" id="name" name="name" required />
           </div>
         </div>
         
         <div>
           <div>
-            <label htmlFor="subject">Objet:</label>
+            <label htmlFor="subject">Object:</label>
             <input type="text" id="subject" name="subject" required />
           </div>
           <div>
-            <label htmlFor="email">E-mail:</label>
+            <label htmlFor="email">Mail:</label>
             <input type="email" id="email" name="email" required />
           </div>
         </div>
@@ -61,7 +61,7 @@ function ContactForm() {
           <textarea id="message" name="message" required></textarea>
         </div>
 
-        <button type="submit">Envoyer</button>
+        <button type="submit">Send</button>
       </form>
       <p>{result}</p>
     </div>

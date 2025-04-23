@@ -1,0 +1,46 @@
+.categorie-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    font-family: "Libre Bodoni", serif;
+    background-color: #fff;
+    overflow: hidden;
+  
+    .gallery {
+      width: 63%;
+      border-radius: 25px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .categorie-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+  
+      h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 10px;
+      }
+  
+      button {
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Libre Bodoni", serif;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  }

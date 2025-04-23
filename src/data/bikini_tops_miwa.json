@@ -1,0 +1,100 @@
+[
+    {
+        "id": "bikini-tops",
+        "title": "DEYA",
+        "cover": "https://i.postimg.cc/qBFsL5Mc/IMG-5752.webp",
+        "products": [
+            {
+                "model": "ORA",
+                "color": "Marron Espresso",
+                "price": 25.9,
+                "description": "Triangle souple amovible satiné",
+                "images": [
+                    "https://i.postimg.cc/mDg69Dw2/IMG-3445.webp",
+                    "https://i.postimg.cc/Gpmm4FZB/IMG-3452.jpg",
+                    "https://i.postimg.cc/4y9vH7Yc/IMG-3427.webp"
+                ]
+            },
+            {
+                "model": "ORA",
+                "color": "Bordeaux Red Wine",
+                "price": 25.9,
+                "description": "Triangle souple amovible satiné",
+                "images": [
+                    "https://i.postimg.cc/ZRg2hNkv/IMG-4037.webp",
+                    "https://i.postimg.cc/kMYXBYCW/IMG-3974.webp",
+                    "https://i.postimg.cc/ZqWXsH2z/IMG-3981.jpg"
+                ]
+            },
+            {
+                "model": "ORA",
+                "color": "Vert Olive",
+                "price": 25.9,
+                "description": "Triangle souple amovible satiné",
+                "images": [
+                    "https://i.postimg.cc/Bb7VC1pn/IMG-5884.webp",
+                    "https://i.postimg.cc/8PWYvsW-N/IMG-5873.webp",
+                    "https://i.postimg.cc/ydydW7PP/IMG-5921.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Marron Espresso",
+                "price": 29.9,
+                "description": "Triangle souple amovible bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/qBFsL5Mc/IMG-5752.webp",
+                    "https://i.postimg.cc/hG3L5y1q/IMG-5736.webp",
+                    "https://i.postimg.cc/RFk5V7Kn/IMG-5722.webp",
+                    "https://i.postimg.cc/x1Mk05mL/IMG-5801.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Bordeaux Red Wine",
+                "price": 29.9,
+                "description": "Triangle souple amovible bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/MGZdVnq3/IMG-6150.webp",
+                    "https://i.postimg.cc/ydH6LCpG/IMG-6144.webp",
+                    "https://i.postimg.cc/5yzZTXHq/IMG-6073.webp",
+                    "https://i.postimg.cc/6pPf2Ybq/IMG-6091.webp"
+                ]
+            },
+            {
+                "model": "DEYA",
+                "color": "Vert Olive",
+                "price": 29.9,
+                "description": "Triangle souple amovible bicolore satiné",
+                "images": [
+                    "https://i.postimg.cc/MGTZ4Yz7/IMG-5357.webp",
+                    "https://i.postimg.cc/LsZwnqDd/IMG-5359.webp",
+                    "https://i.postimg.cc/63WrFgyH/IMG-5355.webp",
+                    "https://i.postimg.cc/Hsw-QsTXS/IMG-5544.webp"
+                ]
+            },
+            {
+                "model": "SOPHIA",
+                "color": "Méditerranée Bleu",
+                "price": 25.9,
+                "description": "Triangle souple amovible",
+                "images": [
+                    "https://i.postimg.cc/N0js2kVy/IMG-4248.webp",
+                    "https://i.postimg.cc/T1CQ1GW5/IMG-4265.webp",
+                    "https://i.postimg.cc/5tSzbgz6/IMG-4235.webp"
+                ]
+            },
+            {
+                "model": "FLORA",
+                "color": "Fleuri Vert",
+                "price": 25.9,
+                "description": "Triangle souple amovible",
+                "images": [
+                    "https://i.postimg.cc/Njp254DV/IMG-3674.webp",
+                    "https://i.postimg.cc/3w2MtLqf/IMG-3649.webp",
+                    "https://i.postimg.cc/9fdSdD4v/IMG-3640.webp"
+                ]
+            }
+        ]
+    }
+]

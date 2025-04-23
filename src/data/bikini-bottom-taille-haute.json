@@ -1,0 +1,37 @@
+[{
+  "id": "bikini-bottoms-highwaist",
+  "title": "DEYA",
+  "cover": "https://i.postimg.cc/Hsn7rLBz/IMG-5562.webp",
+  "products": [
+    {
+      "model": "DEYA",
+      "color": "Marron Espresso",
+      "price": 20.90,
+      "description": "Culotte couvrante taille haute bicolore satiné",
+      "images": [
+        "https://i.postimg.cc/7LF5cMkQ/IMG-5804.webp",
+        "https://i.postimg.cc/mD4bCdRR/IMG-5822.webp"
+      ]
+    },
+    {
+      "model": "DEYA",
+      "color": "Bordeaux Red Wine",
+      "price": 20.90,
+      "description": "Culotte couvrante taille haute bicolore satiné",
+      "images": [
+        "https://i.postimg.cc/gjRQspKT/IMG-6116.webp",
+        "https://i.postimg.cc/Kcn0002w/IMG-6127.webp"
+      ]
+    },
+    {
+      "model": "DEYA",
+      "color": "Vert Olive",
+      "price": 20.90,
+      "description": "Culotte couvrante taille haute bicolore satiné",
+      "images": [
+        "https://i.postimg.cc/Hsn7rLBz/IMG-5562.webp",
+        "https://i.postimg.cc/hgSQvCJY/IMG-5537.webp"
+      ]
+    }
+  ]
+}]

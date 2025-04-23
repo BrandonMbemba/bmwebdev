@@ -1,0 +1,57 @@
+[{
+  "id": "bikini-bottoms-tieside",
+  "title": "ORA",
+  "cover": "https://i.postimg.cc/LXyQVXfD/IMG-4680.webp",
+  "products": [
+    {
+      "model": "ORA",
+      "color": "Marron Espresso",
+      "price": 15.90,
+      "description": "Culotte couvrante à nœuds satiné",
+      "images": [
+        "https://i.postimg.cc/LXyQVXfD/IMG-4680.webp",
+        "https://i.postimg.cc/bv49YtQK/IMG-4704.webp"
+      ]
+    },
+    {
+      "model": "ORA",
+      "color": "Bordeaux Red Wine",
+      "price": 15.90,
+      "description": "Culotte couvrante à nœuds satiné",
+      "images": [
+        "https://i.postimg.cc/7hHVjy16/IMG-4050.webp",
+        "https://i.postimg.cc/25CVQ8CV/IMG-4005.webp"
+      ]
+    },
+    {
+      "model": "ORA",
+      "color": "Vert Olive",
+      "price": 15.90,
+      "description": "Culotte couvrante à nœuds satiné",
+      "images": [
+        "https://i.postimg.cc/X77WkG5M/IMG-6027.webp",
+        "https://i.postimg.cc/PfKsJXRS/IMG-6032.webp"
+      ]
+    },
+    {
+      "model": "SOPHIA",
+      "color": "Méditerranée Bleu",
+      "price": 15.90,
+      "description": "Culotte couvrante à nœuds",
+      "images": [
+        "https://i.postimg.cc/3RSsL9pP/IMG-4619.webp",
+        "https://i.postimg.cc/CMf0PTP7/IMG-4638.webp"
+      ]
+    },
+    {
+      "model": "FLORA",
+      "color": "Fleuri Vert",
+      "price": 15.90,
+      "description": "Culotte couvrante à nœuds",
+      "images": [
+        "https://i.postimg.cc/Gmz9Ln1Y/IMG-4730.webp",
+        "https://i.postimg.cc/bYQyYfxJ/IMG-4744.webp"
+      ]
+    }
+  ]
+}]

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageAbout from '../../public/LSH02056-2.jpg';
+import ImageAbout from '../../public/IMG_5873.webp';
 import Accordion from '../components/Accordion';
 import { NavLink } from 'react-router-dom';
 
